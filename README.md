@@ -13,3 +13,15 @@ click here: https://support.shotgunsoftware.com/entries/95441247.
 
 ## Have a Question?
 Don't hesitate to contact us! You can find us on support@shotgunsoftware.com
+
+----
+## AMG Setup
+```
+git remote add upstream https://github.com/shotgunsoftware/tk-multi-workfiles2.git
+git remote add production //bstorage/rep/set/deployment/tk-multi-workfiles2.git
+```
+
+Pull upstream updates:
+```
+git pull upstream master
+```
